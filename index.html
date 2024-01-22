@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formu doldurun</h1>
+    <form action="">
+      <h3>Hesab məlumatları</h3>
+      <label for="name">İstifadəçi adı</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="istifadəçi adini daxil edin"
+      /><br />
+      <label for="mail">E-poçt</label>
+      <input
+        type="email"
+        id="mail"
+        placeholder="e-poçt adresini daxil edin"
+      /><br />
+      <label for="password">Şifrə</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="şifrəni daxil edin"
+        required
+      />
+    </form>
+    <form action="">
+      <h1>Şəxsi məlumatlar</h1>
+      <label for="name">Ad</label>
+      <input type="text" id="name" placeholder="adınızı daxil edin" /><br />
+      <label for="surname">Soyad</label>
+      <input
+        type="text"
+        id="surname"
+        placeholder="soyadınızı daxil edin"
+      /><br />
+      <label for="cities">Şəhər</label>
+      <select name="cities" id="cities">
+        <option value="Baku">Bakı</option>
+        <option value="Sumqait">Sumqayıt</option>
+        <option value="Ganja">Gəncə</option>
+        <option value="Kurdamir">Kürdəmir</option></select
+      ><br />
+      Cinsiniz
+      <label for="male">Kişi</label>
+      <input type="radio" id="male" name="cins" />
+      <label for="female">Qadın</label>
+      <input type="radio" id="female" name="cins" /><br>
+      Hobbiləriniz
+      <label for="cinema">Sinema</label>
+      <input type="checkbox" id="cinema" >
+      <label for="book">Kitab oxumaq</label>
+      <input type="checkbox" id="book">
+      <label for="sport">İdman</label>
+      <input type="checkbox" id="sport">
+      <label for="walking">Gəzmək</label>
+      <input type="checkbox" id="walking"><br>
+      <input type="submit">
+
+    </form>
+  </body>
+</html>
